@@ -1,0 +1,43 @@
+{
+   "name": "template-vue",
+   "version": "0.0.0",
+   "private": true,
+   "type": "module",
+   "description": "A template to quickly start my vue apps",
+   "main": "index.js",
+   "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "test": "vitest --ui"
+   },
+   "dependencies": {
+      "vue": "*",
+      "vue-router": "*",
+      "pinia": "*",
+      "gsap": "*",
+      "vitest": "*"
+   },
+   "devDependencies": {
+      "@vitejs/plugin-vue": "*",
+      "sass": "*",
+      "typescript": "*",
+      "vite": "*",
+      "@vitest/ui": "*",
+      "@vitest/coverage-c8": "*",
+      "@vue/test-utils": "*"
+   },
+   "keywords": [
+      "vuejs",
+      "frontend",
+      "spa",
+      "sass",
+      "app"
+   ],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/Ikuewumi/template-vue.git"
+   },
+   "author": "Ayobami Ikuewumi",
+   "license": "MIT"
+}
